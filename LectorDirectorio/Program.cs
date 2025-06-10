@@ -19,7 +19,7 @@ else
     string[] directorios = Directory.GetDirectories(path);
     foreach (string dir in directorios)
     {
-        
+        Console.WriteLine($"{dir}");
     }
 
     // mostrar losarchivos contenidos
